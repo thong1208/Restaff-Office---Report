@@ -13,18 +13,7 @@ df_time_sheet = pd.DataFrame(pd.read_csv("tbTimeSheet.csv"))
 df_task = pd.DataFrame(pd.read_csv("tbTask.csv"))
 df_project = pd.DataFrame(pd.read_csv("tbProject.csv"))
 
-#--------------Connect SQL Server---------------
-#conn_sqlServer = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
-#                                'Server=192.168.67.252;'
-#                                'Database=Polaris;'
-#                                'UID=client;'
-#                                'PWD=PolarisTBF2020;')
-#sql_query1 = 'Select * From tbTimeSheet'
-#sql_query2 = 'Select * From tbTask'
-#sql_query3 = 'Select * From tbProject'
-#df_time_sheet = pd.DataFrame(pd.read_sql(sql_query1, conn_sqlServer))
-#df_task = pd.DataFrame(pd.read_sql(sql_query2, conn_sqlServer))
-#df_project = pd.DataFrame(pd.read_sql(sql_query3, conn_sqlServer))
+
 
 df_time_sheet = df_time_sheet[['ProjectId', 'TaskId', 'UserId', 'ProjectRule', 'TSDate', 'TSHour' ]]
 df_task = df_task[['ProjectId', 'TaskId', 'TaskType']]
@@ -85,23 +74,6 @@ df_time_sheet = df_time_sheet.convert_dtypes()
 total_hour = df_time_task2['TSHour'].sum() 
 #projects = df_time_task['ProjectId'].nunique() 
 people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
-
-#-------------------
-#chart_hours = px.histogram(df_time_task, x='TaskType', y='TSHour', color='ProjectRule', text_auto= True,
-#                           labels={
-#                                    "TaskType" : "Task Type",
-#                                    "TSHour" : "Hours",
-#                                    "ProjectRule" : "Role"
-#                          })
-
-#chart_people = px.histogram(df_time_task, x='TSDate' , y='UserId', text_auto= True, histfunc= 'count',nbins = 20,
-#                            labels={
-#                                    "TSDate" : "Date",
-#                                    "UserId" : "Hours",
-#                                    "ProjectRule" : "Role"
-#                           }).update_layout(bargap=0.2)
-#-------------------
-
 
 
 #---------------------------------------------------------------------------------------------BIỂU DIỄN ĐỒ THỊ------------------------------------------------------------------------------
@@ -168,27 +140,6 @@ chart2.update_layout(legend=dict(
 
 
 #------------------------------------------------------------------------------HIỂN THỊ DATA LÊN STREAMLIT------------------------------------------------------------------------------
-#container = st.empty()
-#button_A = container.button('Btn A')
-
-#if button_A is True:
-#        container.empty()
-#        st.plotly_chart(chart1)
-#        button_B = container.button('Btn B')
-#else:
-#        st.plotly_chart(chart1_1)
-#myKey = 'my_key'
-#if myKey not in st.session_state:
-#        st.session_state[myKey] = False
-#if st.session_state[myKey]:
-#       myBtn = st.button('Button 1')
-#        st.plotly_chart(chart1)
-#        st.session_state[myKey] = False
-#else:
-#        myBtn = st.button('Button 2')
-#        st.plotly_chart(chart1_1)
-#        st.session_state[myKey] = True
-
 html_people =   f'''
                 <div style="background-color: Black; padding: 5px">
                 <h1 style= "color: White; text-align: center; font-size: 20px;">People: {people}</h1>

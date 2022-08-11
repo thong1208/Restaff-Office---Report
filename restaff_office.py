@@ -128,7 +128,7 @@ chart2 .add_trace(
 maxHour = float(str(group['TSHour'].cumsum().max()))
 maxUser = int(str(group['UserId'].max())) + 1
 rangeHour = 0
-for n in [10, 20, 100, 200]:
+for n in [10, 20, 50, 100, 200]:
         check = maxUser * n
         if check >= maxHour:
                 rangeHour = check
@@ -183,4 +183,3 @@ blankIndex=[''] * len(df_details)
 df_details.index=blankIndex
 
 st.dataframe(df_details)
-st.write(str(group['TSHour'].cumsum().max())[:1])

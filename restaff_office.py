@@ -98,6 +98,8 @@ chart1.update_layout(legend=dict(
 
 
 
+#format ngày thành kiểu theo mong muốn
+#group['TSDate'] = group['TSDate'].dt.strftime('%d - %b') 
 
 chart2   =  make_subplots ( specs = [[{ "secondary_y" :  True}]]) 
 chart2 .add_trace(
@@ -133,12 +135,14 @@ for n in [10, 20, 50, 100, 200]:
         if check >= maxHour:
                 rangeHour = check
                 break
+       
 chart2 .update_layout(yaxis2 = dict(range = [0,rangeHour]),
                       yaxis1 = dict (range = [0,maxUser]),
                       xaxis = dict(type='date',
                                 nticks=40,
                                 tickformat="%d\n%b - %Y",
-                                tickangle=0,))
+                                tickangle=0,)
+                        )
 chart2.update_layout(legend=dict(
             orientation="h",
             yanchor="bottom",

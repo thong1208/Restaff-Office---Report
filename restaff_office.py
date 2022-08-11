@@ -5,8 +5,8 @@ import plotly.graph_objects as go
 from  plotly.subplots  import  make_subplots
 
 #------------------------------------------------------------------------------------PHẦN TIÊU ĐỀ WEB-------------------------------------------------------------------------------------
-st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='Bim Factory - Report', layout='wide')
-st.title('BIM Fee for Restaff Office - Level 16')
+st.set_page_config(page_icon= 'https://static.wixstatic.com/media/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png/v1/fit/w_2500,h_1330,al_c/91d4d0_50c2e78106264db2a9ddda29a7ad0503~mv2.png',page_title='THE BIM FACTORY', layout='wide')
+st.title('Resource Tracking for Restaff Office - Level 16')
 
 #-------------------------------------------------------------------------------------PHẦN ĐỌC DATA----------------------------------------------------------------------------------------
 df_time_sheet = pd.DataFrame(pd.read_csv("tbTimeSheet.csv"))
@@ -39,13 +39,11 @@ df_time_task = df_time_task.join(df_project.set_index(['ProjectId']),
 st.sidebar.header("Options filter")
 
 df_time_task2 = df_time_task
-project_name = df_time_task2['ProjectName'].unique().tolist()
-
-
-project_selection = st.sidebar.multiselect("Project: ",
-                                    project_name,
-                                    default=project_name,
-                                    )
+#project_name = df_time_task2['ProjectName'].unique().tolist()
+#project_selection = st.sidebar.multiselect("Project: ",
+#                                    project_name,
+#                                    default=project_name,
+#                                   )
 
 
 project_role = df_time_task2['ProjectRule'].unique().tolist()
@@ -54,7 +52,7 @@ role_selection = st.sidebar.multiselect("Project Role: ",
                                 default=project_role[0:2])
 
 
-mask = (df_time_task2['ProjectName'].isin(project_selection) & df_time_task2['ProjectRule'].isin(role_selection))
+mask = (df_time_task2['ProjectRule'].isin(role_selection))
 #number = df_time_task2[mask].shape[0]
 df_time_task2 = df_time_task2[mask]
 
@@ -72,7 +70,7 @@ df_time_sheet = df_time_sheet.convert_dtypes()
 #------TÍNH TOÁN CÁC SỐ---------------------------------
 total_hour = df_time_task2['TSHour'].sum() 
 #projects = df_time_task['ProjectId'].nunique() 
-people = df_time_task2['UserId'].nunique() #nunique(): tính sự khác biệt
+people = group['UserId'].max() #nunique(): tính sự khác biệt
 
 
 #---------------------------------------------------------------------------------------------BIỂU DIỄN ĐỒ THỊ------------------------------------------------------------------------------
@@ -125,8 +123,8 @@ chart2 .add_trace(
                    text=group['TSHour'].cumsum()),
                    secondary_y=True, )
 
-chart2 .update_layout(yaxis2 = dict(range = [0,400]),
-                      yaxis1 = dict (range = [0,4]),
+chart2 .update_layout(yaxis2 = dict(range = [0,(round(group['TSHour'].cumsum().max()))]),
+                      yaxis1 = dict (range = [0,(group['UserId'].max())]),
                       )
 chart2.update_layout(legend=dict(
             orientation="h",
@@ -174,3 +172,4 @@ blankIndex=[''] * len(df_details)
 df_details.index=blankIndex
 
 st.dataframe(df_details)
+st.write((group['TSHour'].cumsum().max()))

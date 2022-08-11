@@ -97,6 +97,8 @@ chart1.update_layout(legend=dict(
             )
 
 
+
+
 chart2   =  make_subplots ( specs = [[{ "secondary_y" :  True}]]) 
 chart2 .add_trace(
         go.Bar(x=group['TSDate'], y=group['UserId'],
@@ -123,8 +125,17 @@ chart2 .add_trace(
                    text=group['TSHour'].cumsum()),
                    secondary_y=True, )
 
-chart2 .update_layout(yaxis2 = dict(range = [0,(round(group['TSHour'].cumsum().max()))]),
-                      yaxis1 = dict (range = [0,(group['UserId'].max())]),
+maxHour = float(str(group['TSHour'].cumsum().max()))
+maxUser = int(str(group['UserId'].max())) + 1
+rangeHour = 0
+for n in [10, 20, 100, 200]:
+        check = maxUser * n
+        if check >= maxHour:
+                rangeHour = check
+                break
+
+chart2 .update_layout(yaxis2 = dict(range = [0,rangeHour]),
+                      yaxis1 = dict (range = [0,maxUser]),
                       )
 chart2.update_layout(legend=dict(
             orientation="h",
@@ -172,4 +183,4 @@ blankIndex=[''] * len(df_details)
 df_details.index=blankIndex
 
 st.dataframe(df_details)
-st.write((group['TSHour'].cumsum().max()))
+st.write(str(group['TSHour'].cumsum().max())[:1])

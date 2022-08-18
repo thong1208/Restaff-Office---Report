@@ -13,7 +13,6 @@ df_time_sheet = pd.DataFrame(pd.read_csv("tbTimeSheet.csv"))
 df_task = pd.DataFrame(pd.read_csv("tbTask.csv"))
 df_project = pd.DataFrame(pd.read_csv("tbProject.csv"))
 
-
 df_time_sheet = df_time_sheet[['ProjectId', 'TaskId', 'UserId', 'ProjectRule', 'TSDate', 'TSHour' ]]
 df_task = df_task[['ProjectId', 'TaskId', 'TaskType']]
 df_project = df_project[['ProjectId', 'ProjectName']]

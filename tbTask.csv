@@ -11,8 +11,8 @@ TaskId,ProjectId,TaskCode,TaskDiscipline,TaskType,SubTask,Name,Detail,UserIds,St
 4604,PRO-138-KAP,ARC-MOD-NEWM,Architecture,Modelling,New Model,02. Model 3D,,"(176),(231),(109),(240)",2022-03-14,2022-04-15,2022-07-11,0,,07/18/2022 6:14:38 PM
 4605,PRO-138-KAP,ARC-MOD-NEWM,Architecture,Modelling,New Model,03. Document 2D,,"(176),(231),(109),(240)",2022-03-14,2022-04-15,2022-07-11,0,,07/18/2022 6:17:21 PM
 4606,PRO-139-PRIMAL GYM,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. Review & Setup Project,,"(231),(258),(208),(274),(221),(191),(109),(247),(176),(232),(234),(240),(257)",2022-03-21,2022-05-31,,0,,06/13/2022 1:38:58 PM
-4607,PRO-139-PRIMAL GYM,ARC-MOD-NEWM,Architecture,Modelling,New Model,02. 3D Model ,,"(231),(258),(208),(274),(221),(191),(109),(247),(176),(232),(234),(240),(257),(228),(225),(279),(283),(280)",2022-03-21,2022-07-31,,16416,,08/09/2022 9:14:19 AM
-4608,PRO-139-PRIMAL GYM,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,03. 2D Documentation,,"(231),(258),(208),(274),(221),(191),(109),(247),(176),(232),(234),(240),(257),(225),(228),(279),(283),(242),(280)",2022-03-21,2022-07-31,,17328,,08/09/2022 9:14:28 AM
+4607,PRO-139-PRIMAL GYM,ARC-MOD-NEWM,Architecture,Modelling,New Model,02. 3D Model ,,"(231),(258),(208),(274),(221),(191),(109),(247),(176),(232),(234),(240),(257),(228),(225),(279),(283),(280),(254)",2022-03-21,2022-07-31,,17328,,08/11/2022 2:09:45 PM
+4608,PRO-139-PRIMAL GYM,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,03. 2D Documentation,,"(231),(258),(208),(274),(221),(191),(109),(247),(176),(232),(234),(240),(257),(225),(228),(279),(283),(242),(280),(254)",2022-03-21,2022-07-31,,18240,,08/11/2022 2:09:55 PM
 4609,PRO-139-PRIMAL GYM,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,04. Project Management & QA,,,2022-04-01,2022-04-08,,0,,06/13/2022 1:38:58 PM
 4610,PRO-137-ADT-001,RND-RDT-STDM-01,RnD,Tools For Revit,Standardize Model,Programming - Create a new Generate window,"call this new window class “GenerateModelOptionView”.
 
@@ -134,8 +134,8 @@ https://aditazz.atlassian.net/browse/DODMVP-367",(194),2022-05-06,2022-05-06,202
 4712,PRO-118-TBF_S,STR-AST-NEWM-01,Structure,AssetData,New Model,Review input data and Generate RFIs,Review input data and Generate RFIs,"(139),(140),(209),(184),(199)",2021-03-04,2021-03-05,2021-03-08,40,,06/13/2022 1:39:01 PM
 4713,PRO-135-IP-01-955,OTH-MOD-NEWM-01,Others,Modelling,New Model,01. Create ASMEPF model from Point cloud,,(112),2022-01-18,2022-01-21,2022-03-30,0,,06/13/2022 1:39:01 PM
 4714,PRO-135-IP-01-955,OTH-PJM-MGMT-01,Others,Project Management,Project Management,02. Project management and QC,,(73),2022-01-18,2022-01-21,2022-03-30,0,,06/13/2022 1:39:01 PM
-4715,PRO-116-IPP-02,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,01. 3D Model ,,"(221),(257),(241),(176),(240),(258),(274)",2022-04-01,2022-05-31,,0,,06/13/2022 1:39:01 PM
-4716,PRO-116-IPP-02,ARC-2DD-NEWM-01,Architecture,2D Documentation,New Model,02. 2D Documentation,,"(221),(257),(231),(241),(176),(274),(258),(240)",2022-04-01,2022-05-31,,0,,06/13/2022 1:39:01 PM
+4715,PRO-116-IPP-02,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. 3D Model ,,"(221),(257),(241),(176),(240),(258),(274),(109)",2022-04-01,2022-05-31,,3328,,08/16/2022 5:36:39 PM
+4716,PRO-116-IPP-02,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,02. 2D Documentation,,"(221),(257),(231),(241),(176),(274),(258),(240),(109)",2022-04-01,2022-05-31,,3744,,08/16/2022 5:36:48 PM
 4717,PRO-116-IPP-02,ARC-PJM-NEWM-01,Architecture,Project Management,New Model,03. Project Management & QA,,,2022-04-01,2022-04-08,,0,,06/13/2022 1:39:01 PM
 4718,PRO-138-KAP-04,STR-MOD-NEWM-01,Structure,Modelling,New Model,01. Model 3D - STR,,"(206),(227),(260),(259)",2022-04-14,2022-05-27,2022-06-14,0,,06/13/2022 1:39:01 PM
 4719,PRO-138-KAP-04,ARC-MOD-NEWM-01,Architecture,Modelling,New Model,02. Model 3D - ARC,,"(206),(227),(260),(259)",2022-04-14,2022-05-27,2022-06-14,0,,06/13/2022 1:39:01 PM
@@ -331,7 +331,7 @@ Deadline 29/1/2021","(188),(206),(200),(140),(139),(203),(199),(209),(112),(184)
 4898,PRO-115-CEC-01,STR-CRD-STDM-06,Structure,Coordination,Standardize Model,QC and Create Report,QC and Create Report,"(140),(184)",2021-03-29,2021-04-01,2021-03-30,8,,06/13/2022 1:39:04 PM
 4899,PRO-115-CEC-01,MEP-OTH-STDM-01,MEP,Others,Standardize Model,BOQ translate & quantities,,"(205),(180),(220),(197),(202)",2021-01-07,2021-01-14,2021-01-12,48,,06/13/2022 1:39:04 PM
 4900,PRO-115-CEC-01,OTH-OTH-STDM-01,Others,Others,Standardize Model,Arch and Struc: BOQ translate & quantities,"BOQ translate, standardize model than export quantity ","(140),(184),(199),(189),(203),(214)",2021-01-08,2021-01-15,2021-01-14,120,,06/13/2022 1:39:04 PM
-4901,PRO-136-PDM-01-AHS_AS,STR-2DD-STDM,Structure,2D Documentation,Standardize Model,Create 2D Fabrication Drawing Set ,Create 2D Fabrication Drawing Set for 3 Pod,"(139),(226),(209),(188),(269)",2022-02-10,2022-02-18,2022-03-30,0,,06/30/2022 2:16:56 PM
+4901,PRO-136-PDM-01-AHS_AS,STR-2DD-STDM,Structure,2D Documentation,Standardize Model,Create 2D Fabrication Drawing Set ,Create 2D Fabrication Drawing Set for 3 Pod,"(139),(226),(209),(188),(269),(112),(191),(182),(206),(169),(242),(274),(275)",2022-02-10,2022-02-18,2022-03-30,832,,08/15/2022 5:38:16 PM
 4902,PRO-136-PDM-01-AHS_AS,ARC-MOD-STDM,Architecture,Modelling,Standardize Model,Create Arc Model ,,"(188),(226),(209),(227)",2022-03-01,2022-04-03,2022-06-29,0,,06/29/2022 4:20:53 PM
 4903,PRO-136-PDM-01-AHS_AS,STR-MOD-STDM,Structure,Modelling,Standardize Model,Create Str Model & 2D Document,,"(188),(226),(209)",2022-03-31,2022-04-03,2022-06-29,0,,06/29/2022 4:20:56 PM
 4904,PRO-136-PDM-01-AHS_AS,ARC-3DV-STDM,Architecture,3D Visualization,Standardize Model,Render Video & Pic,,"(226),(209),(188)",2022-03-01,2022-04-03,2022-06-29,0,,06/29/2022 4:20:59 PM
@@ -382,13 +382,13 @@ Deadline 29/1/2021","(188),(206),(200),(140),(139),(203),(199),(209),(112),(184)
 4949,PRO-136-PDM-10-UPM_M,MEP-MOD-NEWM-02,MEP,Modelling,New Model,02. QA/QC and Coordination,,(151),2022-05-31,2022-06-03,,0,,06/13/2022 1:39:05 PM
 4950,PRO-136-PDM-10-UPM_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. QA/QC and Project Management,,(187),2022-05-31,2022-06-03,,0,,06/13/2022 1:39:05 PM
 4951,PRO-136-PDM-11,STR-MOD-NEWM-01,Structure,Modelling,New Model,01. 3D Model Creation,,"(196),(206),(227),(260),(259),(112),(139),(269),(272),(273),(188),(229),(170),(151),(228),(225)",2022-05-14,2022-05-17,,1000,,06/13/2022 1:39:05 PM
-4952,PRO-136-PDM-11,STR-2DD-NEWM,Structure,2D Documentation,New Model,02. Develop 2D Documentation,,"(196),(206),(227),(260),(259),(112),(139),(269),(272),(273),(188),(229),(170),(228),(151),(223),(225),(276),(182),(191),(226),(268),(270),(277),(278),(271),(282)",2022-05-14,2022-05-17,,1000,,08/08/2022 3:01:21 PM
+4952,PRO-136-PDM-11,STR-2DD-NEWM,Structure,2D Documentation,New Model,02. Develop 2D Documentation,,"(196),(206),(227),(260),(259),(112),(139),(269),(272),(273),(188),(229),(170),(228),(151),(223),(225),(276),(182),(191),(226),(268),(270),(277),(278),(271),(282),(280)",2022-05-14,2022-05-17,,672,,08/16/2022 4:39:00 PM
 4953,PRO-136-PDM-RND,RND-RDS-NEWM-01,RnD,Software Development,New Model,FrameCAD research and how to use with revit,Research on how to integrate FrameCAD in the workflow from revit plug-in,"(213),(209),(212)",2022-02-09,2022-02-12,2022-02-21,0,,06/13/2022 1:39:05 PM
 4954,PRO-136-PDM-RND,RND-RDT-STDM-01,RnD,Tools For Revit,Standardize Model,Research For Kitchen slidable cabinet module.- Bunker Hill set-up,,"(212),(188),(73)",2022-02-14,2022-03-26,2022-02-18,0,,06/13/2022 1:39:05 PM
 4955,PRO-136-PDM-RND,RND-RDT-STDM-02,RnD,Tools For Revit,Standardize Model,Research For Pod caster system (built-in),develop for a permanent system that is built-in the box with wheels?,"(212),(188),(73)",2022-02-14,2022-03-04,2022-03-04,0,,06/13/2022 1:39:05 PM
 4956,PRO-136-PDM-RND,RND-RDT-STDM-03,RnD,Tools For Revit,Standardize Model,Study MWF software,Study Struc Soft MWF software for next project of PDM,"(188),(212)",2022-03-09,2022-03-14,2022-04-06,0,,06/13/2022 1:39:05 PM
 4957,PRO-136-PDM-RND,RND-RDT-STDM-04,RnD,Tools For Revit,Standardize Model,Study - Price comparison for PDF exporters of Revin,"Study features, 3D exporting capabilities and cost","(194),(212),(213)",2022-04-06,2022-04-09,2022-04-13,0,,06/13/2022 1:39:05 PM
-4958,PRO-136-PDM-RND,RND-TRV-NEWM,RnD,Tools For Revit,New Model,Research - .FIM Exporter from MWF and FrameCAD RevLink,.FIM Exporter from MWF and FrameCAD RevLink,"(212),(188),(209),(276)",2022-05-24,2022-05-30,,0,,08/06/2022 4:32:33 PM
+4958,PRO-136-PDM-RND,RND-TRV-NEWM,RnD,Tools For Revit,New Model,Research - .FIM Exporter from MWF and FrameCAD RevLink,.FIM Exporter from MWF and FrameCAD RevLink,"(212),(188),(209),(276),(226),(269)",2022-05-24,2022-05-30,,288,,08/10/2022 11:23:47 AM
 4959,PRO-136-PDM-RND,RND-TRV-MDLU,RnD,Tools For Revit,Model Upgrade,PDM Tools Updates,"Put steps / help on the Stand-alone tool
 1. Select your version
 2. Pick path folder of revit file
@@ -562,7 +562,7 @@ Deadline 15h 18/01/2021",(189),2021-01-18,2021-01-18,2021-01-18,8,,06/13/2022 1:
 5041,PRO-111-IB-15_S,STR-2DD-NEWM-12,Structure,2D Documentation,New Model,Update overall plans,Update overall plans,(188),2021-01-27,2021-01-27,2021-02-01,10,,06/13/2022 1:39:07 PM
 5042,PRO-111-IB-15_S,STR-PJM-MGMT-01,Structure,Project Management,Project Management,Quality control of Phoenix Project,Quality control of Phoenix Project,(214),2021-01-11,2021-02-05,2021-02-19,150,,06/13/2022 1:39:07 PM
 5043,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,00.Review annd Setup,,"(176),(224),(257),(242),(245),(232),(280),(275)",2021-08-24,2022-09-30,,0,,07/04/2022 4:35:33 PM
-5044,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,01.Model and layout,,"(176),(224),(234),(242),(245),(275),(232),(280),(262),(256)",2021-08-24,2022-09-30,,0,,08/01/2022 5:45:09 PM
+5044,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,01.Model and layout,,"(176),(224),(234),(242),(245),(275),(232),(280),(262),(256),(231)",2021-08-24,2022-09-30,,30448,,08/18/2022 10:41:32 AM
 5045,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,02. Render,,"(176),(224),(234),(242),(245),(232),(280),(275)",2021-08-24,2022-09-30,,0,,07/04/2022 4:36:14 PM
 5046,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,03. Documentation,,"(176),(224),(234),(245),(242),(232),(280),(275)",2021-08-24,2022-09-30,,0,,07/04/2022 4:37:00 PM
 5047,PRO-130-TBF-01,ARC-MOD-NEWM,Architecture,Modelling,New Model,04. Landscape,,"(176),(224),(234),(242),(245),(232),(280),(275)",2021-08-24,2022-09-30,,0,,07/04/2022 4:37:39 PM
@@ -1145,11 +1145,38 @@ https://aditazz.atlassian.net/browse/DODMVP-532",(194),2022-07-25,2022-08-01,202
 5544,PRO-144-VR3D-08,ALL-PJM-NEWM,Structure/Civil,Project Management,New Model,03. Project Management & QA,,"(73),(182)",2022-07-28,2022-08-04,,0,,07/28/2022 4:36:36 PM
 5545,PRO-136-PDM-11,ALL-PJM-NEWM,Structure/Civil,Project Management,New Model,03. Project Management & QA,,(73),2022-07-28,2022-08-04,,0,,07/28/2022 4:39:45 PM
 5546,PRO-121-LW-05,ARC-MOD-NEWM,Architecture,Modelling,New Model,15. Update comment tracker,,"(232),(245),(241),(283),(274),(169),(275)",2022-08-01,2022-09-30,,0,,08/01/2022 5:11:56 PM
-5547,PRO-116-IPP-03,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. 3D Model,,"(231),(208),(254),(221),(258),(279),(288),(176),(283)",2022-08-01,2022-10-02,,3888,,08/08/2022 10:25:46 AM
-5548,PRO-116-IPP-03,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,02. 2D Documentation,,"(231),(176),(288),(208),(254),(221),(279),(258),(283)",2022-08-01,2022-10-02,,3888,,08/08/2022 10:25:57 AM
+5547,PRO-116-IPP-03,ARC-MOD-NEWM,Architecture,Modelling,New Model,01. 3D Model,,"(231),(208),(254),(221),(258),(279),(288),(176),(283),(274),(275),(242),(109)",2022-08-01,2022-10-02,,5616,,08/16/2022 5:39:32 PM
+5548,PRO-116-IPP-03,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,02. 2D Documentation,,"(231),(176),(288),(208),(254),(221),(279),(258),(283),(274),(275),(109),(242)",2022-08-01,2022-10-02,,5616,,08/16/2022 5:39:49 PM
 5549,PRO-116-IPP-03,ARC-PJM-NEWM,Architecture,Project Management,New Model,03. Project Management & QA,,,2022-08-02,2022-08-09,,0,,08/02/2022 10:53:57 AM
 5550,PRO-121-LW-10,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,03. Layout Design,,"(231),(208),(254),(221),(258),(288),(279)",2022-08-01,2022-10-02,,0,,08/02/2022 10:57:40 AM
-5551,PRO-116-IPP-03,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,04. Layout Design,,"(231),(176),(288),(208),(254),(221),(279),(258),(283)",2022-08-01,2022-10-02,,3888,,08/08/2022 10:25:33 AM
+5551,PRO-116-IPP-03,ARC-2DD-NEWM,Architecture,2D Documentation,New Model,04. Layout Design,,"(231),(176),(288),(208),(254),(221),(279),(258),(283),(274),(275),(242),(109)",2022-08-01,2022-10-02,,5616,,08/16/2022 5:40:02 PM
 5552,PRO-136-PDM-11,STR-MOD-MDLU,Structure,Modelling,Model Upgrade,Produce FIM file for Elm Street,,"(209),(188),(73)",2022-08-03,2022-09-02,,0,,08/03/2022 10:01:32 AM
 5553,PRO-136-PDM-RND,RND-TRV-NEWT,RnD,Tools For Revit,New Tool,Wall Separation Tool,Create wall cut tool to compliment MWF process - Quick & Dirty,"(194),(213),(212)",2022-08-04,2022-08-08,,96,,08/04/2022 5:41:15 PM
-5554,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,ceiling tile generator,https://aditazz.atlassian.net/browse/DODMVP-581,(194),2022-08-08,2022-08-15,,10,,08/08/2022 3:57:10 PM
+5554,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,ceiling tile generator,https://aditazz.atlassian.net/browse/DODMVP-581,(194),2022-08-08,2022-08-15,2022-08-12,0,,08/12/2022 4:32:44 PM
+5556,PRO-136-PDM-RND,RND-TRV-TOLU,RnD,Tools For Revit,Tool Upgrade,Check export all BOM Tools,try to export many times to see what errors will be happened,"(212),(194),(213)",2022-08-09,2022-08-16,,50,,08/09/2022 5:03:28 PM
+5557,PRO-136-PDM-17-BSMH_AS,ALL-MOD-NEWM,Structure/Civil,Modelling,New Model,01. 3D Model,,"(206),(259),(272),(276),(182),(191),(226)",2022-08-09,2022-08-12,,224,,08/11/2022 3:50:26 PM
+5558,PRO-136-PDM-17-BSMH_AS,ALL-2DD-NEWM,Structure/Civil,2D Documentation,New Model,02. 2D Documentation,,"(259),(206),(182),(191),(272),(276)",2022-08-10,2022-08-17,,336,,08/10/2022 11:05:30 AM
+5559,PRO-136-PDM-17-BSMH_AS,ALL-PJM-NEWM,Structure/Civil,Project Management,New Model,03. Project Management & QA,,"(206),(73)",2022-08-10,2022-08-17,,112,,08/10/2022 11:05:41 AM
+5560,PRO-136-PDM-16-GWL_AS,ALL-MOD-NEWM,Structure/Civil,Modelling,New Model,01. 3D Model,,"(188),(226),(209),(269)",2022-08-10,2022-08-17,,224,,08/10/2022 11:08:23 AM
+5561,PRO-136-PDM-16-GWL_AS,ALL-2DD-NEWM,Structure/Civil,2D Documentation,New Model,02. 2D Documentation,,"(188),(226),(209),(269)",2022-08-10,2022-08-17,,224,,08/10/2022 11:08:51 AM
+5562,PRO-136-PDM-16-GWL_AS,ALL-PJM-NEWM,Structure/Civil,Project Management,New Model,03. Project Management & QA,,"(73),(188)",2022-08-10,2022-08-17,,112,,08/10/2022 11:09:08 AM
+5563,PRO-136-PDM-17-BSMH_M,MEP-OTH-NEWM,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,"(228),(170),(282),(278),(271),(270),(277)",2022-08-09,2022-10-14,,1000,,08/12/2022 3:09:13 PM
+5564,PRO-136-PDM-17-BSMH_M,MEP-CRD-NEWM,MEP,Coordination,New Model,02. Coordination and QA/QC,,"(151),(225)",2022-08-09,2022-10-14,,500,,08/12/2022 3:22:04 PM
+5565,PRO-136-PDM-17-BSMH_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. Project Management and QA/QC,,(187),2022-08-09,2022-10-14,,200,,08/12/2022 3:23:04 PM
+5566,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,ceiling strips generator,https://aditazz.atlassian.net/browse/DODMVP-589,(194),2022-08-12,2022-08-19,,10,,08/12/2022 4:31:33 PM
+5567,PRO-137-ADT-001,RND-TRV-STDM,RnD,Tools For Revit,Standardize Model,light gauge joist generator,https://aditazz.atlassian.net/browse/DODMVP-583,(194),2022-08-15,2022-08-22,,10,,08/15/2022 9:40:35 AM
+5568,PRO-136-PDM-18-WEST LOOP_M,MEP-OTH-NEWM,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,"(271),(270),(170),(277),(228),(282)",2022-08-15,2022-10-14,,1000,,08/16/2022 4:24:36 PM
+5569,PRO-19-PDM-19-MARVIDA_M,MEP-OTH-NEWM,MEP,Others,New Model,01. 3D Modelling and 2D Documentation,,"(271),(270),(170),(277),(278),(228),(282)",2022-08-15,2022-10-14,,1000,,08/16/2022 4:26:15 PM
+5570,PRO-19-PDM-19-MARVIDA_M,MEP-CRD-NEWM,MEP,Coordination,New Model,02. Coordination and QA/QC,,"(151),(225)",2022-08-15,2022-10-14,,500,,08/16/2022 4:27:35 PM
+5571,PRO-136-PDM-18-WEST LOOP_M,MEP-CRD-NEWM,MEP,Coordination,New Model,02. Coordination and QA/QC,,"(151),(225)",2022-08-15,2022-10-14,,500,,08/16/2022 4:28:25 PM
+5572,PRO-19-PDM-19-MARVIDA_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. Project Management and QA/QC,,(187),2022-08-15,2022-10-14,,200,,08/16/2022 4:29:26 PM
+5573,PRO-136-PDM-18-WEST LOOP_M,MEP-PJM-NEWM-01,MEP,Project Management,New Model,03. Project Management and QA/QC,,(187),2022-08-15,2022-10-14,,200,,08/16/2022 4:29:55 PM
+5574,PRO-136-PDM-18-AHS WL_AS,ALL-MOD-NEWM,All,Modelling,New Model,01. 3D Model,,"(182),(188),(209),(191),(139),(226),(269),(112)",2022-08-17,2022-08-24,,0,,08/17/2022 9:47:25 AM
+5575,PRO-136-PDM-18-AHS WL_AS,ALL-2DD-NEWM,All,2D Documentation,New Model,02. 2D Documentation,,"(182),(188),(209),(191),(139),(226),(269),(112)",2022-08-17,2022-08-24,,0,,08/17/2022 9:47:36 AM
+5576,PRO-136-PDM-18-AHS WL_AS,ALL-PJM-NEWM,All,Project Management,New Model,03. Project Management & QA,,(73),2022-08-17,2022-08-24,,56,,08/17/2022 9:47:53 AM
+5577,PRO-136-PDM-18-AHS MAR_AS,ALL-MOD-NEWM,All,Modelling,New Model,01. 3D Model,,"(182),(188),(209),(191),(139),(226),(112)",2022-08-17,2022-08-24,,0,,08/17/2022 9:48:05 AM
+5578,PRO-136-PDM-18-AHS MAR_AS,ALL-2DD-NEWM,All,2D Documentation,New Model,02. 2D Documentation,,"(182),(188),(209),(191),(139),(226),(112)",2022-08-17,2022-08-24,,0,,08/17/2022 9:48:15 AM
+5579,PRO-136-PDM-18-AHS MAR_AS,ALL-PJM-NEWM,All,Project Management,New Model,03. Project Management & QA,,(73),2022-08-17,2022-08-24,,56,,08/17/2022 9:48:24 AM
+5580,PRO-136-PDM-20-NYOMH_AS,ALL-MOD-NEWM,All,Modelling,New Model,01. 3D Model,,"(182),(188),(191),(226),(112)",2022-08-17,2022-08-24,,0,,08/17/2022 9:48:37 AM
+5581,PRO-136-PDM-20-NYOMH_AS,ALL-2DD-NEWM,All,2D Documentation,New Model,02. 2D Documentation,,"(182),(188),(191),(226),(112)",2022-08-17,2022-08-24,,0,,08/17/2022 9:48:47 AM
+5582,PRO-136-PDM-20-NYOMH_AS,ALL-PJM-NEWM,All,Project Management,New Model,03. Project Management & QA,,(73),2022-08-17,2022-08-24,,56,,08/17/2022 9:48:55 AM
